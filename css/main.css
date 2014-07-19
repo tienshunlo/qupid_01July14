@@ -97,9 +97,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.DivQ{
+　position: relative;
+  top: 500px;
+  left: 500px;
+  }
 
-
-div {
+.divprofile {
   height: 100px;
   width:380px;
   border: 1px solid #FFCCFF;
@@ -108,17 +112,11 @@ div {
   margin: 5px 10px;
 }
 
-div:nth-child(even){
+.divprofile:nth-child(even){
     border: 1px solid #CCCCFF;
     }
 
-#FloatDiv{
-　width:200px;
-　height:60px;
-　background-color:#DBABFF;
-　margin-right:10px;
-　float:left;
-}
+
 
 
 
@@ -127,7 +125,8 @@ div:nth-child(even){
 
 img {
   border: 1px solid #ccc;
-  border-radius: 50%; }
+  border-radius: 50%; 
+ }
 
 
 li {
@@ -136,7 +135,7 @@ li {
 }
 .fa {
   margin-right: 8px;
-}
+ }
 
 .btn {
   color: #f1f1f1;
