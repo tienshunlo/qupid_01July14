@@ -112,11 +112,47 @@ div:nth-child(even){
     border: 1px solid #CCCCFF;
     }
 
+#FloatDiv{
+　width:200px;
+　height:60px;
+　background-color:#DBABFF;
+　margin-right:10px;
+　float:left;
+}
+
+
+
+
+
+
 img {
   border: 1px solid #ccc;
   border-radius: 50%; }
 
 
+li {
+  list-style: none;
+  display: inline-block;
+}
+.fa {
+  margin-right: 8px;
+}
+
+.btn {
+  color: #f1f1f1;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background: #50b599;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0px -2px #3e947c;
+  -moz-box-shadow: inset 0px -2px #3e947c;
+  box-shadow: inset 0px -2px #3e947c;
+}
+
+.btn:hover {
+  background: #3e947c;
+}
 
 
 
