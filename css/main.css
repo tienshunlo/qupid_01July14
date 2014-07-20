@@ -97,11 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.DivQ{
-　position: relative;
-  top: 500px;
-  left: 500px;
-  }
+
 
 .divprofile {
   height: 100px;
@@ -121,18 +117,29 @@ textarea {
 
 
 
-
-
 img {
   border: 1px solid #ccc;
   border-radius: 50%; 
  }
 
+.profilimage {
+  position:relative; 
+  top:5px; 
+  left:5px; 
+}
+
+
+.profilbotton {
+  position:relative; 
+  top:-40px; 
+  left:125px; 
+}
 
 li {
   list-style: none;
   display: inline-block;
-}
+ }
+
 .fa {
   margin-right: 8px;
  }
