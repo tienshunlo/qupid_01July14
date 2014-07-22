@@ -13,9 +13,11 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+   
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/main.css">
+
       <style>
       body {
       text-align: center;
@@ -31,26 +33,49 @@
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            // (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            // function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            // e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            // e.src='//www.google-analytics.com/analytics.js';
+            // r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            // ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+        <div class="container">
         
+        <header>
+        
+        <nav class="topnav">   
+            <a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+            <a href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
+            <a href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
+            <a href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
+        </nav>
+
+        <nav class="leftnav">
+            <a href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+            <a href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
+            <a href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
+            <a href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
+        </nav>
+        
+        </header>
+       
+        <section>
+         
+        
+       
         <div class="divprofile">
             <img class="profilimage" src="img/sample_1.jpg" alt="sample_1">
             <ul class="profilbotton">
-              <li><a target="_blank" href="#" class="btn"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="btn"><i class="fa fa-envelope"></i></a></li>
+              <li><a target="_blank" href="#" class="btn"><i class="fa fa-group"></i></a></li>
+              <li><a href="#" class="btn"><i class="fa fa-heart"></i></a></li>
             </ul>
         </div>
         
@@ -59,24 +84,24 @@
         <div class="divprofile">
             <img class="profilimage" src="img/sample_2.jpg" alt="sample_2">
             <ul class="profilbotton">
-              <li><a target="_blank" href="#" class="btn"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="btn"><i class="fa fa-envelope"></i></a></li>
+              <li><a target="_blank" href="#" class="btn"><i class="fa fa-group"></i></a></li>
+              <li><a href="#" class="btn"><i class="fa fa-heart"></i></a></li>
               </ul>
         </div>
         
         <div class="divprofile">
             <img class="profilimage" src="img/sample_3.jpg" alt="sample_3">
               <ul class="profilbotton">
-              <li><a target="_blank" href="#" class="btn"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="btn"><i class="fa fa-envelope"></i></a></li>
+              <li><a target="_blank" href="#" class="btn"><i class="fa fa-group"></i></a></li>
+              <li><a href="#" class="btn"><i class="fa fa-heart"></i></a></li>
               </ul>
         </div>
        
         <div class="divprofile">
             <img class="profilimage" src="img/sample_1.jpg" alt="sample_1">
               <ul class="profilbotton">
-              <li><a target="_blank" href="#" class="btn"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="btn"><i class="fa fa-envelope"></i></a></li>
+              <li><a target="_blank" href="#" class="btn"><i class="fa fa-group"></i></a></li>
+              <li><a href="#" class="btn"><i class="fa fa-heart"></i></a></li>
               </ul>
         </div>
         
@@ -92,12 +117,7 @@
             <li class="tab">關於我們</li>
         </ul>
         
-        <div class="list-group">
-            <a class="list-group-item" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
-            <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
-            <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
-            <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
-        </div>
+        
          
         <i class="fa fa-tachometer"></i>
         <i class="fa fa-envelope fa-2x"></i>
@@ -106,6 +126,7 @@
             <li><a target="_blank" href="#" class="btn"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#" class="btn"><i class="fa fa-envelope"></i></a></li>
         </ul>
-
+    </section>
+        
     </body>
 </html>

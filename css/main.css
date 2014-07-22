@@ -16,6 +16,7 @@ input,
 select,
 textarea {
     color: #222;
+    margin-left: 10px;
 }
 
 html {
@@ -97,7 +98,43 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+  height:100%;
+  width:500px;
+  margin:0 auto;
+  position: relative;
+}
 
+.topnav {
+  width: 380px;
+  top: 0;
+  left: 120Px;
+  text-align: center;
+  position:relative;
+}
+
+.topnav a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.leftnav {
+  width: 120px; 
+  position: absolute;
+  top: 120px;
+  left: 0;
+  text-align: left;
+}
+.leftnav a{
+  display: block;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+
+section {
+  margin-left: 120px;
+}
 
 .divprofile {
   height: 100px;
@@ -106,6 +143,7 @@ textarea {
   border-radius: 10px;
   padding: 5px;
   margin: 5px auto;
+  position: relative;
 }
 
 .divprofile:nth-child(even){
@@ -123,16 +161,16 @@ img {
  }
 
 .profilimage {
-  position:relative; 
-  top:5px; 
-  left:-145px; 
+  position:absolute; 
+  top:11px; 
+  left:10px; 
 }
 
 
 .profilbotton {
-  position:relative; 
-  top:-40px; 
-  right:-130px; 
+  position:absolute; 
+  top:60px; 
+  right:8px; 
 }
 
 li {
@@ -142,12 +180,14 @@ li {
 
 .fa {
   text-align: center;
+  padding-top: 8px;
  }
 
 .btn {
   height: 30px;
   width: 30px;
   color: #f1f1f1;
+  margin-right: 10px;
   border-radius: 50%;
   background: #50b599;
   display: inline-block;
