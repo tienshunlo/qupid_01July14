@@ -107,24 +107,28 @@ textarea {
 
 .topnav {
   width: 400px;
+  height:30px;
   top: 0;
   left: 200Px;
   text-align: center;
   position:relative;
+  background: #FF8CFF;
 }
 
 .topnav a{
   display: inline-block;
   text-decoration: none;
   margin-left: 45px;
+  margin-top: 5px;
 }
 
 .leftnav {
   width: 200px; 
   position: absolute;
-  top: 60px;
+  top: 0;
   left: 0;
   text-align: left;
+  margin: 0 auto;
 }
 
 .leftnav a{
@@ -136,6 +140,7 @@ textarea {
 
 
 section {
+  background: #FFCCFF;
   margin-left: 200px;
   width:400px;
   position: absolute;
@@ -144,20 +149,22 @@ section {
 .divprofile {
   height: 130px;
   width:380px;
-  border: 3px solid #FFCCFF;
-  border-radius: 10px;
+  background: #FFFFFF;
+  /*border: 3px solid #000000;*/
+  box-shadow: 0 1px 1px 0px #FF33FF, inset 0 0px 2px #FF33FF;*/
+  /*border-radius: 10px;*/
   padding: 5px;
-  margin: 5px auto;
+  margin: 0 auto ;
   position: relative;
 }
 
-.divprofile:nth-child(even){
+/*.divprofile:nth-child(even){
     border: 3px solid #CCCCFF;
-    }
+    }*/
 
 .matchpercentage{
   position:absolute; 
-  top:100px; 
+  top:90px; 
   left:20px;
 }
 
@@ -179,28 +186,48 @@ img {
   border-radius: 50%; 
  }
 
-.profilimage {
+.profileimage {
   position:absolute; 
   top:20px; 
   left:10px; 
 }
 
 
-.profilbotton {
+.profilebotton {
   position:absolute; 
-  top:80px; 
-  right:20px; 
+  top:60px; 
+  left:110px; 
 }
 
-.profilbotton a{
+.profilebotton a{
   margin-right: 30px;
 }
+
+
+ul {
+  padding:10px;
+ }
 
 
 li {
   list-style: none;
   display: inline-block;
+  /*margin-right: 0px;*/
  }
+
+ .lileftnavbtn {
+  list-style: none;
+  display: block;
+  right: 10px;
+ 
+ }
+
+.lileftnavbtn a{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
 
 .fa {
   text-align: center;
@@ -212,10 +239,10 @@ li {
 .leftnavbtn{
   /*height: 30px;*/
   left: 0;
-  width: 140px; 
+  width: 200px; 
   color: #f1f1f1;
   padding: 0.5em 0.5em;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   background: #FF8CFF;
   display: inline-block;
   text-decoration: none;
