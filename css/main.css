@@ -100,15 +100,15 @@ textarea {
 
 .container {
   height:100%;
-  width:500px;
+  width:600px;
   margin:0 auto;
   position: relative;
 }
 
 .topnav {
-  width: 380px;
+  width: 400px;
   top: 0;
-  left: 120Px;
+  left: 200Px;
   text-align: center;
   position:relative;
 }
@@ -116,30 +116,35 @@ textarea {
 .topnav a{
   display: inline-block;
   text-decoration: none;
+  margin-left: 45px;
 }
 
 .leftnav {
-  width: 120px; 
+  width: 200px; 
   position: absolute;
-  top: 120px;
+  top: 60px;
   left: 0;
   text-align: left;
 }
+
 .leftnav a{
   display: block;
   text-decoration: none;
   margin-top: 15px;
+
 }
 
 
 section {
-  margin-left: 120px;
+  margin-left: 200px;
+  width:400px;
+  position: absolute;
 }
 
 .divprofile {
-  height: 100px;
+  height: 130px;
   width:380px;
-  border: 1px solid #FFCCFF;
+  border: 3px solid #FFCCFF;
   border-radius: 10px;
   padding: 5px;
   margin: 5px auto;
@@ -147,12 +152,26 @@ section {
 }
 
 .divprofile:nth-child(even){
-    border: 1px solid #CCCCFF;
+    border: 3px solid #CCCCFF;
     }
 
+.matchpercentage{
+  position:absolute; 
+  top:100px; 
+  left:20px;
+}
 
+.profilename{
+  position:absolute; 
+  top:0px; 
+  left:120px;
+}
 
-
+.questionaire{
+  position:absolute; 
+  top:30px; 
+  left:120px; 
+}
 
 
 img {
@@ -162,16 +181,21 @@ img {
 
 .profilimage {
   position:absolute; 
-  top:11px; 
+  top:20px; 
   left:10px; 
 }
 
 
 .profilbotton {
   position:absolute; 
-  top:60px; 
-  right:8px; 
+  top:80px; 
+  right:20px; 
 }
+
+.profilbotton a{
+  margin-right: 30px;
+}
+
 
 li {
   list-style: none;
@@ -180,25 +204,44 @@ li {
 
 .fa {
   text-align: center;
-  padding-top: 8px;
+  /*padding-top: 8px;*/
  }
 
-.btn {
-  height: 30px;
-  width: 30px;
+
+
+.leftnavbtn{
+  /*height: 30px;*/
+  left: 0;
+  width: 140px; 
   color: #f1f1f1;
-  margin-right: 10px;
-  border-radius: 50%;
-  background: #50b599;
+  padding: 0.5em 0.5em;
+  border-radius: 5px;
+  background: #FF8CFF;
   display: inline-block;
   text-decoration: none;
-  -webkit-box-shadow: inset 0px -2px #3e947c;
-  -moz-box-shadow: inset 0px -2px #3e947c;
-  box-shadow: inset 0px -2px #3e947c;
+  -webkit-box-shadow: inset 0px -2px #FF33FF;
+  -moz-box-shadow: inset 0px -2px #FF33FF;
+  box-shadow: inset 0px -2px #FF33FF;
+}
+
+
+.btn {
+  /*height: 40px;*/
+  /*width: 40px;*/
+  color: #f1f1f1;
+  padding: 0.5em 0.7em;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #FF8CFF;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0px -2px #FF33FF;
+  -moz-box-shadow: inset 0px -2px #FF33FF;
+  box-shadow: inset 0px -2px #FF33FF;
 }
 
 .btn:hover {
-  background: #3e947c;
+  background: #FF33FF;
 }
 
 
