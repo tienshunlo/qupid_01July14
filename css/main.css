@@ -106,7 +106,7 @@ textarea {
 }
 
 .topnav {
-  width: 300px;
+  width: 320px;
   height:30px;
   top: 0;
   left: 200Px;
@@ -151,7 +151,7 @@ section {
 
 .divprofile {
   height: 130px;
-  width:300px;
+  width:320px;
   background: #FFFFFF;
   /*border: 3px solid #000000;*/
   box-shadow: 0 1px 1px 0px #FF33FF, inset 0 0px 2px #FF33FF;*/
