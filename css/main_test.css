@@ -228,27 +228,22 @@ img {
 }
 
 .left_nav {
-  /*width: 200px;*/ 
+  width: 200px; 
+  max-height: 0px;
   position: relative;
   top: 0;
-  left: 50px;
+  left: 120px;
   text-align: left;
   /*margin: 0 auto;*/
 }
-
-/*.lef_tnav a{
-  display: block;
-  text-decoration: none;
-  margin-top: 15px;
-
-}*/
 
 .left_nav ul{
   /*height: 30px;*/
   width: 200px; 
   color: #f1f1f1;
-  padding: 0.5em 0.5em;
-  margin-bottom: 5px;
+  padding: 0.5em 0 0.5em 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
   /*border-radius: 5px;*/
   background: #FF8CFF;
   display: inline-block;
@@ -258,12 +253,18 @@ img {
   box-shadow: inset 0px -2px #FF33FF;
 }
 
-.left_nav li{
+.left_nav p{
   list-style: none;
   display: block;
-  margin-left: 20px;
-  
+  padding-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 1px;
+  margin-top: 0px;
   text-decoration: none;
+  width: 200px;
+  height: 30px;
+  background: white;
+  font-size: 14px;
  
  }
 
@@ -271,7 +272,8 @@ img {
   list-style: none;
   display: block;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 5px;
+  color: #000;
 
 }
 
