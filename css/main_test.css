@@ -115,12 +115,20 @@ code {
   padding: 24px 15px;
   text-align: center;
 }
+
 header,
 section,
 aside,
+nav,
 footer {
   margin: 0 1px 1px 1px;
 }
+
+/*nav{
+  position: absolute;
+  float:left;
+  width: 320px;
+}*/
 
 section {
   float: left;
