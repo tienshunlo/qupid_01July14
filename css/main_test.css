@@ -237,7 +237,7 @@ img {
 
 .left_nav {
   width: 200px; 
-  max-height: 0px;
+  /*max-height: 0px;*/
   position: relative;
   top: 0;
   left: 70px;
